@@ -1,4 +1,30 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  title: 'スンスンの開発ブログ',
+  description: '福岡在住のエンジニア、スンスンの開発記録と学びのシェア',
+  ogTitle: 'スンスンの開発ブログ',
+  ogDescription: '福岡在住のエンジニア、スンスンの開発記録と学びのシェア',
+  ogImage: '/favicon.png',
+  ogUrl: 'https://seung-seung.com',
+  twitterTitle: 'スンスンの開発ブログ',
+  twitterDescription: '福岡在住のエンジニア、スンスンの開発記録と学びのシェア',
+  twitterImage: '/favicon.png',
+  twitterCard: 'summary_large_image',
+});
+
+useHead({
+  htmlAttrs: {
+    lang: 'jp',
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png',
+    },
+  ],
+});
+</script>
 <template>
   <section class="flex flex-col md:flex-row">
     <div class="md:w-3/4">
