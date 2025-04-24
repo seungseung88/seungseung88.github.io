@@ -3,7 +3,21 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxt/image', '@nuxt/fonts'],
-  content: {},
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            // Default theme (same as single string)
+            default: 'github-light',
+            // Theme used if `html.dark`
+            dark: 'github-dark',
+          },
+        },
+      },
+    },
+  },
+
   css: ['~/assets/css/main.css'],
   image: {
     dir: 'assets/images',

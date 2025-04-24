@@ -5,7 +5,7 @@ const links = [
 ];
 </script>
 <template>
-  <footer class="bg-gray-800">
+  <footer class="bg-gray-800 mt-20">
     <section class="mx-auto max-w-7xl px-2 sm:px-4 lg:py-6 text-gray-300 flex flex-row items-center my-5">
       <p class="flex-1">&copy; SeungSeung 2025. All Rights Reserved</p>
       <div class="flex flex-row justify-center gap-4">

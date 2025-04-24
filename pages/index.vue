@@ -29,7 +29,7 @@ useHead({
   <section class="flex flex-col md:flex-row">
     <div class="md:w-3/4">
       <h1 class="text-5xl font-bold mt-20">アンニョン👋</h1>
-      <p class="text-lg text-gray-900 mt-5 p-2 border-l-4 border-sky-600">福岡で暮らしながら開発している人間です</p>
+      <p class="text-lg text-gray-900 mt-5 p-2 border-l-4 border-sky-600">福岡で暮らしながら開発している韓国人です</p>
       <p class="text-base text-gray-800 mb-3 p-2">
         一番好きな映画は
         <a href="https://umimachi.gaga.ne.jp/" target="”_blank”" class="text-sky-600">海街ダイアリ</a
@@ -58,9 +58,7 @@ useHead({
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023.06</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            <a href="https://layered.inc/" class="hover:text-sky-600">感情日記の開発</a>
-          </h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">感情日記開発</h3>
           <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
             プログラミングスクールで初めてコーディングを学び、その知識を活かして5人でチームを組み、「感情日記」というサービスを開発しました。
             ユーザーが書いた日記から感情を分析し、0〜5点でスコア化、感情の変化はグラフで可視化されます。
