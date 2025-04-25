@@ -2,7 +2,20 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              textDecoration: 'none',
+              '&:hover': {
+                textDecoration: 'none',
+              },
+            },
+          },
+        },
+      },
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 };

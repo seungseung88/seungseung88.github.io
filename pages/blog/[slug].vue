@@ -9,7 +9,7 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () => {
 <template>
   <BlogHeader :post="post" />
   <main>
-    <div class="prose prose-slate max-w-none">
+    <div class="prose prose-lg mx-auto">
       <ContentRenderer :value="post" />
     </div>
   </main>
