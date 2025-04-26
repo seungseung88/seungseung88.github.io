@@ -96,14 +96,14 @@ GitHub Pages를 사용하기 위해 레포지토리를 생성한다.
 
 > Settings > Secrets and variables > Actions > Variables > New repository variable
 
-![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-variable-config-1.png?raw=true)
+![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-variable-config-1.jpg?raw=true)
 
 등록할 값
 
 - Name: `NUXT_APP_BASE_URL`
 - Value: `/`
 
-![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-variable-config-2.png?raw=true)
+![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-variable-config-2.jpg?raw=true)
 
 ::InfoBlock
 만약 GitHub 기본 도메인 <repository명>.github.io를 그대로 사용할 경우,
@@ -146,7 +146,7 @@ Value를 /repository명/으로 설정하면 된다.
 
 > [お名前ナビ](https://navi.onamae.com) 에 로그인 > ネームサーバー/DNS 클릭 > ドメイン DNS 設定 클릭 > 도메인 목록에서 DNS レコード設定 버튼 클릭
 
-![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/onamae-dns-config-1.png?raw=true)
+![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/onamae-dns-config-1.jpg?raw=true)
 
 2. A 레코드 추가
 
@@ -164,7 +164,7 @@ Value를 /repository명/으로 설정하면 된다.
 - 호스트명: `www`
 - 값(Value): `<repository명>.github.io`
 
-![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/onamae-dns-config-2.png?raw=true)
+![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/onamae-dns-config-2.jpg?raw=true)
 
 ## 4. GitHub Pages 커스텀 도메인 등록
 
@@ -172,7 +172,7 @@ Value를 /repository명/으로 설정하면 된다.
 
 > Settings > Pages > Custom domain
 
-![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-custom-domain.png?raw=true)
+![image](https://github.com/seungseung88/seungseung88.github.io/blob/main/image/create-a-blog-with-nuxt/github-custom-domain.jpg?raw=true)
 
 정상적으로 설정되었다면,
 브라우저에서 커스텀 도메인 접속 시 "Hello World" 화면이 보일 것이다.
