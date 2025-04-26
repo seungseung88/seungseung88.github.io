@@ -1,6 +1,7 @@
 <script setup>
 const links = [
-  { name: 'Github', href: 'https://github.com', icon: 'entypo-social:github-with-circle' },
+  { name: 'Github', href: 'https://github.com/seungseung88', icon: 'entypo-social:github-with-circle' },
+  { name: 'Gmail', href: 'lisu5336@gmail.com', icon: 'mdi:gmail' },
   { name: 'Instagram', href: 'https://github.com', icon: 'entypo-social:instagram' },
 ];
 </script>
