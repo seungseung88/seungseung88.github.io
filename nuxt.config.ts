@@ -7,7 +7,10 @@ export default defineNuxtConfig({
     build: {
       markdown: {
         highlight: {
-          theme: 'material-theme-darker',
+          theme: {
+            default: 'one-dark-pro',
+            dark: 'github-dark',
+          },
         },
       },
     },

@@ -9,7 +9,7 @@ export default {
             a: {
               textDecoration: 'none',
               '&:hover': {
-                textDecoration: 'none',
+                textDecoration: 'underline',
               },
             },
           },
