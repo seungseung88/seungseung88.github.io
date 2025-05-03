@@ -1,6 +1,6 @@
 <template>
-  <div class="p-5 bg-red-300/10 border border-red-300/25 text-red-600 rounded">
+  <div class="p-3 bg-red-300/10 text-red-600 rounded border-l-4 border-red-300">
     <Icon name="i-lucide:circle-alert" class="text-red-300" />
-    <slot />
+    <slot class="m-0" />
   </div>
 </template>
