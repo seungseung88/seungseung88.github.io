@@ -1,5 +1,10 @@
 <script lang="ts" setup>
 const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').all());
+
+const tagColor = {
+  github: 'bg-blue-900 text-white',
+  nuxt: 'bg-green-100 text-green-700',
+};
 </script>
 <template>
   <h2
@@ -21,8 +26,7 @@ const { data: posts } = await useAsyncData('blog', () => queryCollection('blog')
             <h3 class="mt-0.5 text-lg min-h-10 text-gray-900">{{ post.title }}</h3>
 
             <div class="flex flex-row gap-2">
-              <LogoBadge class="bg-green-100 text-green-700">Nuxt</LogoBadge>
-              <LogoBadge class="bg-blue-900 text-white">Github</LogoBadge>
+              <LogoBadge v-for="tag in post['meta']['tag']" :class="tagColor[tag]"> {{ tag }} </LogoBadge>
             </div>
           </div>
         </article>
