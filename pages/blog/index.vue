@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').all());
+const { data: posts } = await useAsyncData('blog', () => queryCollection('blog').order('date', 'DESC').all());
 
 const tagColor = {
   github: 'bg-blue-900 text-white',
